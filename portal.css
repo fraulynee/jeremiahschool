@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #e5e3e4; */
+    scroll-behavior: smooth;
+    background-image: url("img/1.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#logo {
+    width: 10rem;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    left: 1rem;
+    bottom: .5rem;
+}
+
+#header {
+    background-color: #181a49;
+    height: 15vh;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px black;
+}
+
+#schhol-name {
+    color: white;
+    font-family: Old English Text MT;
+    font-weight: lighter;
+    font-size: 2.2rem;
+    overflow-x: hidden;
+}
+
+#tagline {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+#name-withtagline {
+    position: relative;
+    bottom: 6.5rem;
+    left: 9rem;
+    overflow-x: hidden;
+}
+
+.fa-facebook {
+    color: white;
+    text-decoration: none;
+    margin: 0 .5rem;
+}
+
+.fa-google {
+    color: white;
+    text-decoration: none;
+    margin: 0 .5rem;
+}
+
+.fa-youtube {
+    color: white;
+    margin: 0 .5rem;
+}
+
+.fa-instagram {
+    color: white;
+    text-decoration: none;
+    margin: 0 .5rem;
+}
+
+.social-media-icons {
+    position: relative;
+    bottom: 3rem;
+    left: 61rem;
+}
+
+
+/* MAIN BODY */
+
+.menus {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+button {
+    width: 13rem;
+    height: 13rem;
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+    outline: none;
+    /* border-style: double white; */
+    background: linear-gradient(to bottom, #ff0000 0%, #800000 120%);
+    /* box-shadow: 2px 2px 2px black; */
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    position: relative;
+    top: 0;
+    transition: top ease 0.2s;
+    border-color: white;
+    border-style: double;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    top: -12px;
+}
+
+i {
+    font-size: 3.2rem;
+}
